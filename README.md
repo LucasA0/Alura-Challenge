@@ -1,4 +1,4 @@
-# Alura-Challenge-Encoder
+# Alura-Challenge
 Esse é um encriptador de menságens desenvolvido para o desafio da alura.
 Neste projeto foi muito pensado na produtividade, onde o usuário pode chegar e utilizar sem problemas, sem caixas de erro nem avisos irritantes.
 
