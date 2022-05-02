@@ -12,7 +12,7 @@ document.getElementById('copy').addEventListener('click', function() {/* adicion
 function remover_acentos_espaco(str) {
     /* aqui foi usado da função normalize para remover os acentos das palavras e também foi utilizado
     de expressões regulares (/[^a-zA-Zs]/) o que remove todos os caracteres especiais */
-    return str.normalize("NFD").replace(/[^a-zA-Zs]/g, "");
+    return str.normalize("NFD").replace(/[^a-zA-Z\s]/g, "");
 }
 
 // pegando do DOM o meu botão de criptografia e adicionando o evento para quando ele for clicado
