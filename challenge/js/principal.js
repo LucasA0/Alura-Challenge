@@ -11,7 +11,7 @@ document.getElementById('copy').addEventListener('click', function() {/* adicion
 // alterando os caracteres especiais e com acento, assim evitando que a criptografia passe com acentos etc...
 function remover_acentos_espaco(str) {
     /* aqui foi usado da função normalize para remover os acentos das palavras e também foi utilizado
-    de expressões regulares (/[^a-zA-Zs]/) o que remove todos os caracteres especiais */
+    de expressões regulares (/[^a-zA-Z\s]/) o que remove todos os caracteres especiais */
     return str.normalize("NFD").replace(/[^a-zA-Z\s]/g, "");
 }
 
