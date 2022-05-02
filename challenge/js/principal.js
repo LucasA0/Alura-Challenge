@@ -32,7 +32,7 @@ var btnAdd = document.getElementById('crypto').addEventListener('click', functio
 
 var btnRmv = document.getElementById('uncrypto').addEventListener('click', function (event) {
     // como a função já foi chamada, ela não precisa ser chamada novamente!
-    var input = remover_acentos_espaco(document.getElementById('first').value);
+    var input = document.getElementById('first').value;
     var convert = input.replace(/imes/g, 'i');
     convert = convert.replace(/enter/g, 'e');
     convert = convert.replace(/ai/g, 'a');
