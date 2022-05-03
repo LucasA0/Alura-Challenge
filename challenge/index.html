@@ -3,9 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <title>Encoder</title>
+        <title>Encriptador</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <!-- linkando fonts externas  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@100&family=Radio+Canada:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+        <!-- fim da linkagem de fonts -->
     </head>    
     <body>
         <!-- criando os campos de texto -->
@@ -13,7 +24,7 @@
 
             <textarea id="first" name="initial" rows="4" cols="40" placeholder="Digite aqui" required></textarea>
 
-            <textarea id="second" name="result" rows="4" cols="40" placeholder="resultado"></textarea>
+            <textarea id="second" name="result" rows="4" cols="40" placeholder="Resultado"></textarea>
 
         </div>
         <!-- criando os botões -->
@@ -26,13 +37,17 @@
         </div>
 
         <div class="paragraph">
-            <p>&#9758;permitido apenas letras minusculas e sem acentuação!</p>
-        </div>
+            <p id="arrow">&#11166;</p>
+            <p>Seu texto convertido sairá em caixa baixa e sem acentos!</p>
+            <p id="arrow1">&#11164;</p>
+        </div> 
 
         <!-- criando meu footer e definindo seu conteudo -->
         <footer>
-            <p class="autor">&copy;Lucas Araújo - 2022</p>
-            <p class="info">O projeto está em desenvolvimento, o resultado final poderá ficar diferente do apresentado!</p>
+            <div class="infos">
+                <p class="autor">&copy;Lucas Araujo - 2022</p>
+                <p class="info">O projeto está em desenvolvimento, o resultado final poderá ficar diferente do apresentado!</p>
+            </div>
             <div class="links">
                 <p>Minhas Redes:</p>
                 <a href="https://www.linkedin.com/in/lucas-c-araujo/"><img src="images/linkedin.png" id="linkedin" alt="logo do linkedin"></a>
