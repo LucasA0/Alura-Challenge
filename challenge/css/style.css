@@ -10,23 +10,29 @@ body{
 
 .paragraph p {
     position: relative;
-    top: 41.4rem;
-    font-size: 1.188rem;
-    left: 20rem;
+    top: 29.2rem;
+    font-size: 0.7rem;
+    left: 19.950rem;
     font-weight: bold;
     font-family: 'Kanit', sans-serif;
 }
 
 #arrow{
     position: absolute;
-    top: 41.4rem;
-    left: 18.8rem;
+    top: 29.2rem;
+    left: 18rem;
 }
 
 #arrow1{
     position: absolute;
-    top: 41.4rem;
-    left: 50.5rem;
+    top: 29.2rem;
+    left: 40.3rem;
+}
+
+#arrow2{
+    position: absolute;
+    top: 18.2rem;
+    left: 44.3rem;
 }
 
 .text{
@@ -34,28 +40,55 @@ body{
 }
 
 
+#alura1{
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: dimgrey; 
+}
+
+#divisor{
+    position: absolute;
+    top: 3rem;
+    left: 31rem;
+}
+
+#alura2{
+    position: absolute;
+    top: 3rem;
+    right: 0rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: dimgrey; 
+}
+
 #first{
     position: relative;
     width: 50%;
-    height: 34rem;
-    left: 28%;
+    height: 20rem;
+    left: 35%;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding-top: 0.4rem;
     border: 0.2rem solid black;
     border-radius: 1.3rem;
     box-shadow: 0.2rem 0.2rem 0.4rem black;
+    top: 2.8rem;
     font-weight: bold;
 }
 
 #second{
     position: relative;
-    width: 38%;
-    height: 40rem;
-    left: 49%;
-    top: 5.9rem;
+    width: 40%;
+    height: 25rem;
+    left: 45%;
+    top: 7.8rem;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding-top: 0.4rem;
     border: 0.2rem solid black;
     border-radius: 1.3rem;
@@ -70,15 +103,15 @@ body{
 
 #crypto{
     position: relative;
-    top: 43rem;
-    left: 21.2rem;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
+    top: 30.4rem;
+    left: 20.8rem;
+    padding: 0.075rem 1rem 0.2rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
     cursor: pointer;
     box-shadow: 0.188rem 0.188rem 0.281rem black;
     transition: 0.6s;
-    border: 0.063rem solid black;
+    border: 0.12rem solid grey;
     font-family: 'Kanit', sans-serif;
 
 }
@@ -89,15 +122,15 @@ body{
 
 #uncrypto{
     position: relative;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
+    padding: 0.075rem 1rem 0.2rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
     cursor: pointer;
     box-shadow: 0.188rem 0.188rem 0.281rem black;
     transition: 0.6s;
-    top: 43rem;
-    left: 24.875rem;
-    border: 0.063rem solid black;
+    top: 30.4rem;
+    left: 24.3rem;
+    border: 0.12rem solid grey;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -107,15 +140,15 @@ body{
 
 #copy{
     position: relative;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
+    padding: 0.075rem 1rem 0.2rem 1rem;
+    font-size: 0.6rem;
+    border-radius: 0.8rem;
     cursor: pointer;
     box-shadow: 0.188rem 0.188rem 0.281rem black;
     transition: 0.6s;
-    top: 43rem;
-    left: 49.9rem;
-    border: 0.063rem solid black;
+    top: 30.4rem;
+    left: 47.9rem;
+    border: 0.12rem solid grey;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -127,51 +160,34 @@ footer{
     width: 100%;
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(209,240,250,1) 0%, rgba(110,194,183,1) 100%);
     position: absolute;
-    height: 20%;
-    top: 56.25rem;
-}
-
-.links p{
-    position: relative;
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-    bottom: 0.5rem;
-    font-family: 'Kanit', sans-serif;
+    height: 4rem;
+    bottom: 0rem;
 }
 
 #linkedin{
     position: relative;
     width: 1.7%;
-    left: 47.4%;
-    bottom: 2%;
+    top: 0.6rem;
+    left: 96.3%;
 }
 
 #github{
     position: relative;
     width: 1.7%;
-    left: 48.7%;
-    bottom: 2%;
+    top: 0.6rem;
+    left: 92%;
 }
 
 .infos{
     position: flex;
  }
- 
-.info{
-    position: relative;
-    text-align: center;
-    font-size: 1.125rem;
-    top: 5.5rem;
-    font-weight: bold;
-    font-family: 'Radio Canada', sans-serif;
-}
 
 .autor{
     position: relative;
-    font-size: 1.3rem;
-    text-align: center;
-    font-style: oblique;
-    top: 9rem;
-    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    text-align: left;
+    top: 2.2rem;
+    padding-left: 1rem;
+    opacity: 80%;
+    font-family: 'Roboto', sans-serif;
  }
