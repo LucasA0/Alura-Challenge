@@ -1,177 +1,38 @@
-
-body{
-    background-color: rgb(209, 240, 250);
-    width: 80%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.paragraph{
-    position: absolute;
+.container-principal{
+    min-height: 100vh;
+    background-color: #95a5a6;
 }
-
-.paragraph p {
-    position: relative;
-    top: 41.4rem;
-    font-size: 1.188rem;
-    left: 20rem;
-    font-weight: bold;
-    font-family: 'Kanit', sans-serif;
+.text-crude{
+    height: 100%;
 }
-
-#arrow{
-    position: absolute;
-    top: 41.4rem;
-    left: 18.8rem;
-}
-
-#arrow1{
-    position: absolute;
-    top: 41.4rem;
-    left: 50.5rem;
-}
-
-.text{
-    position: absolute;
-}
-
-
-#first{
-    position: relative;
-    width: 50%;
-    height: 34rem;
-    left: 28%;
-    text-align: center;
-    font-size: 1.4rem;
-    padding-top: 0.4rem;
-    border: 0.2rem solid black;
-    border-radius: 1.3rem;
-    box-shadow: 0.2rem 0.2rem 0.4rem black;
-    font-weight: bold;
-}
-
-#second{
-    position: relative;
-    width: 38%;
-    height: 40rem;
-    left: 49%;
-    top: 5.9rem;
-    text-align: center;
-    font-size: 1.4rem;
-    padding-top: 0.4rem;
-    border: 0.2rem solid black;
-    border-radius: 1.3rem;
-    box-shadow: 0.2rem 0.2rem 0.4rem black;
-    font-weight: bold;
-
-}
-
-.btn{
-    position: absolute;
-}
-
-#crypto{
-    position: relative;
-    top: 43rem;
-    left: 21.2rem;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
-    cursor: pointer;
-    box-shadow: 0.188rem 0.188rem 0.281rem black;
-    transition: 0.6s;
-    border: 0.063rem solid black;
-    font-family: 'Kanit', sans-serif;
-
-}
-
-#crypto:hover{
-    background-color: rgb(166, 253, 220);
-}
-
-#uncrypto{
-    position: relative;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
-    cursor: pointer;
-    box-shadow: 0.188rem 0.188rem 0.281rem black;
-    transition: 0.6s;
-    top: 43rem;
-    left: 24.875rem;
-    border: 0.063rem solid black;
-    font-family: 'Kanit', sans-serif;
-}
-
-#uncrypto:hover{
-    background-color: rgb(166, 253, 220);
-}
-
-#copy{
-    position: relative;
-    padding: 0.625rem 2.5rem 0.625rem 2.5rem;
-    font-size: 1.125rem;
-    border-radius: 1.25rem;
-    cursor: pointer;
-    box-shadow: 0.188rem 0.188rem 0.281rem black;
-    transition: 0.6s;
-    top: 43rem;
-    left: 49.9rem;
-    border: 0.063rem solid black;
-    font-family: 'Kanit', sans-serif;
-}
-
-#copy:hover{
-    background-color: rgb(166, 253, 220);
-}
-
-footer{
+.text-crude textarea{
     width: 100%;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(209,240,250,1) 0%, rgba(110,194,183,1) 100%);
-    position: absolute;
-    height: 20%;
-    top: 56.25rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-
-.links p{
-    position: relative;
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-    bottom: 0.5rem;
-    font-family: 'Kanit', sans-serif;
+.text-result textarea{
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-
-#linkedin{
-    position: relative;
-    width: 1.7%;
-    left: 47.4%;
-    bottom: 2%;
+.container-footer{
+    background-color: #2c3e50;
+    min-height: 8rem;
 }
-
-#github{
-    position: relative;
-    width: 1.7%;
-    left: 48.7%;
-    bottom: 2%;
+.container-footer p{
+    color: white;
 }
-
-.infos{
-    position: flex;
- }
- 
-.info{
-    position: relative;
-    text-align: center;
-    font-size: 1.125rem;
-    top: 5.5rem;
-    font-weight: bold;
-    font-family: 'Radio Canada', sans-serif;
+.container-footer i{
+    color: white;
+    font-size: 2rem;
 }
-
-.autor{
-    position: relative;
-    font-size: 1.3rem;
-    text-align: center;
-    font-style: oblique;
-    top: 9rem;
-    font-family: 'Comfortaa', cursive;
- }
+.card{
+    min-height: 90vh;
+}
